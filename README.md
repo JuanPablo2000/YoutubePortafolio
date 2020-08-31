@@ -1,3 +1,9 @@
+## Youtube Portafolio Clone :rocket:, my first web aplication deployed on Firebase :fire: 
+
+## Link of the app:
+https://clone-34e91.web.app/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
