@@ -1,0 +1,31 @@
+.SidebarRow{
+    display: flex;
+    align-items: center;
+    
+}
+.SidebarRow__Icon{
+    margin:8px 25px 8px 20px;
+    color: #606060;
+    
+}
+.SidebarRow__title{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.SidebarRow:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.SidebarRow:hover>.SidebarRow__Icon{
+    color: red;
+}
+.SidebarRow.Selected{
+    background-color: lightgray;
+}
+.SidebarRow.SidebarRow.Selected> .SidebarRow__Icon{
+    color: red;
+}
+.SidebarRow.SidebarRow.Selected> .SidebarRow__title{
+    font-weight: bold;
+}
